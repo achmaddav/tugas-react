@@ -1,0 +1,40 @@
+.header-wrapper {
+  background-color: #282c34;
+  display: flex;
+}
+
+.header-wrapper > img {
+  height: 90px;
+}
+
+.header-title {
+  color: rgb(240, 248, 255);
+  margin-top: 15px;
+}
+
+.navigation {
+  display: flex;
+  margin-left: auto;
+}
+
+.navigation > button {
+  margin: 20px 100px 0 0;
+  font-size: 20px;
+  height: 30px;
+  width: 100px;
+  background-color: rgba(128, 128, 128, 0);
+  cursor: pointer;
+  color: white;
+  border: 0px;
+  font-family: Helvetica,Arial, sans-serif;
+}
+
+.footer-wrapper {
+  background-color: #282c34;
+  display: flex;
+}
+
+.footer-title {
+  color: rgb(240, 248, 255);
+  margin-bottom: 15px;
+}
